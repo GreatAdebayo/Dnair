@@ -1,0 +1,273 @@
+/* color */
+/* #7D2FF5 - blue
+background - #17161E
+overlay black - #251F29 */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #17161e !important;
+}
+
+.bg-black {
+  background-color: #17161e !important;
+}
+
+.bg-purple {
+  background-color: #7d2ff5 !important;
+}
+
+.fa-bars {
+  color: #7d2ff5 !important;
+  font-size: 24px;
+  background-color: #251f29;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.form-control {
+  border: 1px solid #2e2d35 !important;
+  font-weight: 500;
+  height: 60px !important;
+  outline: none !important;
+  border-radius: 20px !important;
+}
+
+.bg-overlay {
+  background-color: #251f29;
+  border-radius: 15px;
+}
+
+.fa-align-justify {
+  color: white !important;
+  font-size: 24px;
+  background-color: #406bff;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.fa-chart-line {
+  color: white !important;
+  font-size: 24px;
+  background-color: #251f29;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.fa-chart-line:hover {
+  background-color: #406bff;
+}
+
+.leaders-coin {
+  background-color: #7d2ff5;
+  border-radius: 10px;
+}
+
+.all-coin {
+  background-color: #7d2ff5;
+  border-radius: 10px;
+  width: 150px !important;
+}
+
+.fw-bold {
+  font-weight: 450 !important;
+}
+
+.event-tag {
+  color: #406bff !important;
+  font-size: 16px;
+  background-color: #17161e;
+  border-radius: 8px;
+}
+
+.events {
+  background-color: #7d2ff5;
+  border-radius: 15px;
+  line-height: 1.2;
+}
+
+.event-note {
+  font-size: 14px;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  a {
+    text-decoration: none;
+  }
+
+  .bar {
+    display: none;
+  }
+
+  .search-box {
+    margin-top: 25px;
+  }
+
+  .side-nav {
+    margin: 0 !important;
+    padding-top: 0px !important;
+  }
+
+  .side-nav-wrap {
+    padding: 12px;
+  }
+
+  .leaders {
+    margin-top: 24px;
+  }
+
+  .leaders-wrap {
+    padding: 0px !important;
+  }
+
+  .leaders-coin h4 {
+    font-size: medium;
+  }
+
+  .all-coin {
+    background-color: #7d2ff5;
+    border-radius: 10px;
+    width: 100px !important;
+    margin: 10px 10px 10px 0px !important;
+  }
+
+  .all-coins h2,
+  .leaders h2 {
+    margin-bottom: 24px !important;
+  }
+
+  .event-wrap {
+    margin: 24px 0px 0px 0px !important;
+  }
+
+  .events {
+    line-height: normal;
+  }
+}
+
+.fa-align-justify {
+  color: white !important;
+  font-size: 24px;
+  background-color: #251f29 !important;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.fa-chart-line {
+  color: white !important;
+  font-size: 24px;
+  background-color: #406bff !important;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.fa-power-off {
+  color: white !important;
+  font-size: 24px;
+  background-color: red !important;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+select {
+  border-radius: 7px !important;
+  background-color: #17161e !important;
+  border: none !important;
+  color: white !important;
+}
+
+.github {
+  background-color: #406bff;
+  border-radius: 7px !important;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.website {
+  border-radius: 7px !important;
+  background-color: #17161e !important;
+  cursor: pointer;
+}
+
+.fa-globe {
+  color: #406bff;
+  font-size: 22px;
+}
+
+.reddit {
+  width: 50%;
+}
+
+.facts {
+  border-bottom: 2px solid #7d2ff5;
+}
+
+.bitcoin {
+  background-color: white;
+  border-radius: 18px;
+  width: 50px !important;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 80px;
+  top: 0;
+  padding: 3px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .date {
+    margin: 10px 0px 0px 0px !important;
+  }
+
+  .graph-section {
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .info-card {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .icons {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .exchange {
+    padding: 10px !important;
+  }
+
+  select {
+    margin-left: -20px !important;
+  }
+
+  .exchange h5 {
+    margin-bottom: 30px !important;
+  }
+
+  .alexa {
+    margin: 24px 0px 0px 0px !important;
+  }
+
+  .bitcoin {
+    position: relative;
+    margin-left: 200px;
+    margin-top: -100px;
+    width: 65px !important;
+  }
+
+  .info-card h5 {
+    margin-bottom: 0px !important;
+  }
+}
