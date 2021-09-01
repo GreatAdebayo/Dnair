@@ -10,6 +10,8 @@ TECHNOLOGIES USED
 ADDITIONS
 •	Login Page: I Included a login page to demonstrate my knowledge of React route guard and a simple Token stored in the Local storage for authentication.
 
+• There is a hardcoded array of users with just a single user object in it for login email and password.
+
 •	Logout Button: To clear the authentication in Redux and take the user back to the login page. All other pages will be inaccessible untill logged in.
 
 N.B: There is a hardcoded array of users with just a single user.
