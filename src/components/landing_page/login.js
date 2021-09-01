@@ -43,9 +43,9 @@ const Login = () => {
           className="row"
           style={{ marginTop: "100px", marginBottom: "50px" }}
         >
-          <div className="col mx-auto">
+          <div className="col-8 mx-auto">
             <form
-              className="w-100 p-4 shadow rounded"
+              className="w-100 p-3 shadow rounded"
               style={{ backgroundColor: "#251F29" }}
               onSubmit={userLogin}
             >
